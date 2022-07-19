@@ -1,0 +1,54 @@
+﻿language_dacian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_dacian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_dacian }
+			multiply = 10
+		}
+	}
+	
+	color = { 187 142 65 }
+}
+
+language_thracian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_thracian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_thracian }
+			multiply = 10
+		}
+	}
+	
+	color = { 187 142 60 }
+}
+
+language_gaulish = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_gaulish
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_gaulish }
+			multiply = 10
+		}
+	}
+	
+	color = { 39 219 44 }
+}
+
